@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png"/>
+  <link rel="stylesheet" href="style.css">
+  <title>Text Speaker</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Text-Speaker</h1>
+    
+    <form>
+      <select name="voice">
+        <option value="UK English Female">UK English Female</option>
+        <option value="UK English Male">UK English Male</option>
+        <option value="US English Female">US English Female</option>
+        <option value="Spanish Latin American Female">Spanish Latin American Female</option>
+        <option value="Spanish Female">Spanish Female</option>
+      </select>
+    </form>
+    
+    <input type="text" placeholder="Write something!"/>
+    
+    <button>Speak!</button>
+  </div>
+  
+  <div class="alert">
+    <span class="close-btn">&times;</span>
+    <p>- Instructions:</p>
+    <ol >
+      <li>Select a lenguage and voice.</li>
+      <li>Write something in the field.</li>
+      <li>Press the button.</li>
+      <li>Listen to the voice.</li>  
+    </ol>     
+  </div>
+  
+  <span class="help">?</span>
+  
+  <script src="https://code.responsivevoice.org/responsivevoice.js?key=auvTMQpf"></script>
+  <script src="main.js"></script>
+</body>
+</html>
